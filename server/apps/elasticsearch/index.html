@@ -1,0 +1,1039 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Elasticsearch - balloon</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#overview" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="balloon" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              balloon
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Elasticsearch
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="balloon" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    balloon
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      Server
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Server
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../changelog/" title="Changelog" class="md-nav__link">
+      Changelog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../upgrade/" title="Upgrade" class="md-nav__link">
+      Upgrade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-6" type="checkbox" id="nav-1-6" checked>
+    
+    <label class="md-nav__link" for="nav-1-6">
+      Apps
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-6">
+        Apps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Elasticsearch
+      </label>
+    
+    <a href="./" title="Elasticsearch" class="md-nav__link md-nav__link--active">
+      Elasticsearch
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indexes" class="md-nav__link">
+    Indexes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-index-settings" class="md-nav__link">
+    Custom index settings
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#german" class="md-nav__link">
+    German
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Web client
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Web client
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web-client/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web-client/changelog/" title="Changelog" class="md-nav__link">
+      Changelog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web-client/upgrade/" title="Upgrade" class="md-nav__link">
+      Upgrade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../web-client/contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Desktop client
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Desktop client
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../desktop-client/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../desktop-client/installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../desktop-client/changelog/" title="Changelog" class="md-nav__link">
+      Changelog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../desktop-client/upgrade/" title="Upgrade" class="md-nav__link">
+      Upgrade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../desktop-client/contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      SDK
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        SDK
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../sdk/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../sdk/go/" title="Go" class="md-nav__link">
+      Go
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../sdk/nodejs/" title="Node.js" class="md-nav__link">
+      Node.js
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../sdk/php/" title="PHP" class="md-nav__link">
+      PHP
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indexes" class="md-nav__link">
+    Indexes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-index-settings" class="md-nav__link">
+    Custom index settings
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#german" class="md-nav__link">
+    German
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Elasticsearch</h1>
+                
+                <h2 id="overview">Overview</h2>
+<p>Balloon.App.Elasticsearch is a core app and already shipped and enabled by default.
+Elasticsearch gets used to offer fulltext search. Documents are stored by the internal balloon server directly and no additional tools are required.
+The elasticsearch plugin ingest-attachment is required to provide blob indexing, see <a href="/server/installation">balloon server installation</a>.</p>
+<h2 id="indexes">Indexes</h2>
+<p><code>ballooncli uprade</code> automatically creates the required indexes <code>nodes</code> and <code>blobs</code>.</p>
+<h2 id="custom-index-settings">Custom index settings</h2>
+<p>The indices get created with settings/mappings from index.json (<code>src/app/Balloon.App.Elasticsearch/index.json</code>). Those settings may
+be changed according your needs. The default settings may work well for languages such as English.
+Note that the path to index.json may also be set in the configuration within <code>Balloon\App\Elasticsearch\Migration\Delta\Installation</code>.</p>
+<h3 id="german">German</h3>
+<p>If you need fulltextsearch for languages such as german you may consider a custom elasticsearch configuration using <a href="https://github.com/uschindler/german-decompounder">compound word lists</a>.
+For example you may use this plugin with the following configuration.</p>
+<p>Note that you will need to recreate the indices if you want to apply a new index.json:
+(You have to manually drop the elasticsearch indices first if they already exists)</p>
+<pre><code class="sh">ballooncli upgrade -f -i -d 'Balloon\App\Elasticsearch\Migration\Delta\Installation' -vvvv 
+ballooncli elasticsearch reindex -vvv
+</code></pre>
+
+<pre><code class="json">{
+  &quot;blobs&quot; : {
+    &quot;settings&quot;: {
+      &quot;analysis&quot;: {
+         &quot;filter&quot;: {
+            &quot;german_decompounder&quot;: {
+               &quot;type&quot;: &quot;hyphenation_decompounder&quot;,
+               &quot;word_list_path&quot;: &quot;analysis/dictionary-de.txt&quot;,
+               &quot;hyphenation_patterns_path&quot;: &quot;analysis/de_DR.xml&quot;,
+               &quot;only_longest_match&quot;: true,
+               &quot;min_subword_size&quot;: 4
+            },
+            &quot;german_stemmer&quot;: {
+               &quot;type&quot;: &quot;stemmer&quot;,
+               &quot;language&quot;: &quot;light_german&quot;
+            }
+         },
+         &quot;analyzer&quot;: {
+            &quot;german_decompound&quot;: {
+               &quot;type&quot;: &quot;custom&quot;,
+               &quot;tokenizer&quot;: &quot;standard&quot;,
+               &quot;filter&quot;: [
+                  &quot;lowercase&quot;,
+                  &quot;german_decompounder&quot;,
+                  &quot;german_normalization&quot;,
+                  &quot;german_stemmer&quot;
+               ]
+            }
+         }
+      }
+    },
+    &quot;mappings&quot; : {
+      &quot;_doc&quot; : {
+        &quot;properties&quot; : {
+          &quot;attachment&quot; : {
+            &quot;properties&quot; : {
+              &quot;author&quot; : {
+                &quot;type&quot; : &quot;text&quot;,
+                &quot;fields&quot; : {
+                  &quot;keyword&quot; : {
+                    &quot;type&quot; : &quot;keyword&quot;,
+                    &quot;ignore_above&quot; : 256
+                  }
+                }
+              },
+              &quot;content&quot; : {
+                &quot;type&quot; : &quot;text&quot;,
+                &quot;analyzer&quot; : &quot;german_decompound&quot;,
+                &quot;fields&quot; : {
+                  &quot;keyword&quot; : {
+                    &quot;type&quot; : &quot;keyword&quot;,
+                    &quot;ignore_above&quot; : 256
+                  }
+                }
+              },
+              &quot;content_length&quot; : {
+                &quot;type&quot; : &quot;long&quot;
+              },
+              &quot;content_type&quot; : {
+                &quot;type&quot; : &quot;text&quot;,
+                &quot;fields&quot; : {
+                  &quot;keyword&quot; : {
+                    &quot;type&quot; : &quot;keyword&quot;,
+                    &quot;ignore_above&quot; : 256
+                  }
+                }
+              },
+              &quot;date&quot; : {
+                &quot;type&quot; : &quot;date&quot;
+              },
+              &quot;language&quot; : {
+                &quot;type&quot; : &quot;text&quot;,
+                &quot;fields&quot; : {
+                  &quot;keyword&quot; : {
+                    &quot;type&quot; : &quot;keyword&quot;,
+                    &quot;ignore_above&quot; : 256
+                  }
+                }
+              },
+              &quot;title&quot; : {
+                &quot;type&quot; : &quot;text&quot;,
+                &quot;fields&quot; : {
+                  &quot;keyword&quot; : {
+                    &quot;type&quot; : &quot;keyword&quot;,
+                    &quot;ignore_above&quot; : 256
+                  }
+                }
+              }
+            }
+          },
+          &quot;content&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;analyzer&quot; : &quot;german_decompound&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;md5&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;metadata&quot; : {
+            &quot;properties&quot; : {
+              &quot;ref&quot; : {
+                &quot;properties&quot; : {
+                  &quot;id&quot; : {
+                    &quot;type&quot; : &quot;text&quot;,
+                    &quot;fields&quot; : {
+                      &quot;keyword&quot; : {
+                        &quot;type&quot; : &quot;keyword&quot;,
+                        &quot;ignore_above&quot; : 256
+                      }
+                    }
+                  },
+                  &quot;owner&quot; : {
+                    &quot;type&quot; : &quot;text&quot;,
+                    &quot;fields&quot; : {
+                      &quot;keyword&quot; : {
+                        &quot;type&quot; : &quot;keyword&quot;,
+                        &quot;ignore_above&quot; : 256
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  &quot;nodes&quot; : {
+    &quot;settings&quot;: {
+      &quot;analysis&quot;: {
+         &quot;filter&quot;: {
+            &quot;german_decompounder&quot;: {
+               &quot;type&quot;: &quot;hyphenation_decompounder&quot;,
+               &quot;word_list_path&quot;: &quot;analysis/dictionary-de.txt&quot;,
+               &quot;hyphenation_patterns_path&quot;: &quot;analysis/de_DR.xml&quot;,
+               &quot;only_longest_match&quot;: true,
+               &quot;min_subword_size&quot;: 4
+            },
+            &quot;german_stemmer&quot;: {
+               &quot;type&quot;: &quot;stemmer&quot;,
+               &quot;language&quot;: &quot;light_german&quot;
+            }
+         },
+         &quot;analyzer&quot;: {
+            &quot;german_decompound&quot;: {
+               &quot;type&quot;: &quot;custom&quot;,
+               &quot;tokenizer&quot;: &quot;standard&quot;,
+               &quot;filter&quot;: [
+                  &quot;lowercase&quot;,
+                  &quot;german_decompounder&quot;,
+                  &quot;german_normalization&quot;,
+                  &quot;german_stemmer&quot;
+               ]
+            }
+         }
+      }
+    },
+    &quot;mappings&quot; : {
+      &quot;_doc&quot; : {
+        &quot;properties&quot; : {
+          &quot;changed&quot; : {
+            &quot;type&quot; : &quot;date&quot;
+          },
+          &quot;created&quot; : {
+            &quot;type&quot; : &quot;date&quot;
+          },
+          &quot;deleted&quot; : {
+            &quot;type&quot; : &quot;date&quot;
+          },
+          &quot;directory&quot; : {
+            &quot;type&quot; : &quot;boolean&quot;
+          },
+          &quot;hash&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;meta&quot; : {
+            &quot;properties&quot; : {
+              &quot;color&quot; : {
+                &quot;type&quot; : &quot;text&quot;,
+                &quot;fields&quot; : {
+                  &quot;keyword&quot; : {
+                    &quot;type&quot; : &quot;keyword&quot;,
+                    &quot;ignore_above&quot; : 256
+                  }
+                }
+              },
+              &quot;tags&quot; : {
+                &quot;type&quot; : &quot;text&quot;,
+                &quot;fields&quot; : {
+                  &quot;keyword&quot; : {
+                    &quot;type&quot; : &quot;keyword&quot;,
+                    &quot;ignore_above&quot; : 256
+                  }
+                }
+              }
+            }
+          },
+          &quot;mime&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;name&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;analyzer&quot; : &quot;german_decompound&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;owner&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;parent&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;readonly&quot; : {
+            &quot;type&quot; : &quot;boolean&quot;
+          },
+          &quot;reference&quot; : {
+            &quot;type&quot; : &quot;boolean&quot;
+          },
+          &quot;share&quot; : {
+            &quot;type&quot; : &quot;boolean&quot;
+          },
+          &quot;shared&quot; : {
+            &quot;type&quot; : &quot;text&quot;,
+            &quot;fields&quot; : {
+              &quot;keyword&quot; : {
+                &quot;type&quot; : &quot;keyword&quot;,
+                &quot;ignore_above&quot; : 256
+              }
+            }
+          },
+          &quot;size&quot; : {
+            &quot;type&quot; : &quot;long&quot;
+          },
+          &quot;version&quot; : {
+            &quot;type&quot; : &quot;long&quot;
+          }
+        }
+      }
+    }
+  }
+}
+</code></pre>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../contribute/" title="Contribute" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Contribute
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../../web-client/" title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Home
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.ac79c3b0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
