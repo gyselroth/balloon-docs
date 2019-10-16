@@ -1,5 +1,5 @@
 ## 3.2.8
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Oct 02 14:33:22 CEST 2019
 
 * [FIX] Cannot start container balloon_balloon-web_1 #262
@@ -7,7 +7,7 @@
 
 
 ## 3.2.7
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Sep 11 16:31:23 CEST 2019
 
 * [FIX] fallback locale does not work #261
@@ -15,7 +15,7 @@
 
 
 ## 3.2.6
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu Jul 11 12:29:23 CEST 2019
 
 * [FIX] Do not navigate to currently open profile register #244
@@ -25,7 +25,7 @@
 
 
 ## 3.2.5
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Jul 09 11:14:01 CEST 2019
 
 * [CHANGE] "Reload" Banner, when update is available #242
@@ -33,28 +33,28 @@
 
 
 ## 3.2.4
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Jun 28 09:41:04 CEST 2019 
 
 * [FIX] Android soft navigation bar overlaps content (action bar) #239
 
 
 ## 3.2.3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Jun 26 13:45:04 CEST 2019 
 
 * [FIX] Removed css revision from css load url
 
 
 ## 3.2.2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Jun 26 13:45:04 CEST 2019 
 
 Test release
 
 
 ## 3.2.1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Jun 26 12:16:04 CEST 2019 
 
 * [FIX] Two browser reloads are necessary after new release has been deployed #234
@@ -62,7 +62,7 @@ Test release
 
 
 ## 3.2.0
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Jun 25 07:41:04 CEST 2019 
 
 * [FIX] Reset view bar when menu is changed #224
@@ -72,7 +72,7 @@ Test release
 
 
 ## 3.2.0-beta3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Jun 17 17:02:02 CEST 2019
 
 * [CHANGE] Use real input[type="checkbox"] + label for webauthn setup wizard #182
@@ -83,7 +83,7 @@ Test release
 
 
 ## 3.2.0-beta2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Jun 14 15:17:02 CEST 2019
 
 * [FIX] Allow scrolling in kendo autocompletes #207
@@ -106,7 +106,7 @@ Test release
 
 
 ## 3.2.0-beta1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Jun 05 14:47:01 CEST 2019
 
 * [FEATURE] Display mount information #73
@@ -154,35 +154,35 @@ Test release
 
 
 ## 3.1.3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue May 14 16:37:12 CEST 2019
 
 * [CHANGE] Reverted v3.1.2, changed prompt to notify a manager that he will loose access after unshare
 
 
 ## 3.1.2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon May 13 15:31:14 CEST 2019
 
 * [FIX] Reload new node if unshare a collection as a share manager
 
 
 ## 3.1.1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Apr 29 10:20:11 CEST 2019
 
 * [FIX] uncaught error in IE11 #155
 
 
 ## 3.1.0
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Apr 12 15:33:34 CEST 2019
 
 * [FIX] Avoid wrongly positioned upload manager #153
 
 
 ## 3.1.0-beta3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Apr 02 15:25:43 CEST 2019
 
 * [FIX] search summary attributes are now displayed correctly
@@ -191,7 +191,7 @@ Test release
 
 
 ## 3.1.0-beta2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Mar 29 16:32:43 CET 2019
 
 * [FIX] Display "InvalidEncryptionKey" message when adding external storage #142
@@ -202,7 +202,7 @@ Test release
 
 
 ## 3.1.0-beta1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu Mar 21 12:25:01 CET 2019
 
 * [CHANGE] Add hint to share link settings #134
@@ -221,7 +221,7 @@ Test release
 
 
 ## 3.0.9
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Jan 22 14:34:01 CET 2019
 
 * [FIX] Avoid double requests in autocomplete #104
@@ -233,7 +233,7 @@ Test release
 
 
 ## 3.0.8
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Dez 05 08:55:22 CET 2018
 
 * [FIX] Various german locale fixes
@@ -243,14 +243,14 @@ Test release
 
 
 ## 3.0.7
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Nov 13 09:39:22 CET 2018
 
 * [FIX] File uploads are sent with wrong Content-Type header #106
 
 
 ## 3.0.6
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Nov 09 09:28:22 CET 2018
 
 * [FIX] doublecklick on folder too much recursion, folder does not open #91
@@ -258,7 +258,7 @@ Test release
 
 
 ## 3.0.5
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu Oct 25 11:07:51 CEST 2018
 
 * [CHANGE] Add user namespace to localStorage #101
@@ -266,7 +266,7 @@ Test release
 
 
 ## 3.0.4
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Oct 23 13:25:51 CEST 2018
 
 * [FIX] Popup destroy shared links shows date 1970-01-01 instead the choosen one #98
@@ -275,7 +275,7 @@ Test release
 
 
 ## 3.0.3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Oct 23 10:32:55 CEST 2018
 
 * [FIX] login background image not stretched on ie11 #94
@@ -285,48 +285,48 @@ Test release
 
 
 ## 3.0.2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Oct 22 10:32:34 CEST 2018
 
 * [FIX] Fixed get access token for node download/preview if authenticated via oidc #87
 
 
 ## 3.0.1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Oct 02 10:32:20 CEST 2018
 
 * [FIX] Metadata contains a share property with a date on non shared collections #66
 
 
 ## 3.0.0
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Oct 02 09:03:20 CEST 2018
 
 Web UI v3. Complete redesign.
 
 
 ## 3.0.0-rc1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Sept 28 16:36:20 CEST 2018
 
 Web UI v3. Complete redesign.
 
 
 ## 3.0.0-beta2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Sept 26 14:21:34 CEST 2018
 
 Web UI v3. Complete redesign.
 
 ## 3.0.0-beta1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Sept 14 14:53:33 CEST 2018
 
 Web UI v3. Complete redesign.
 
 
 ## 2.0.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Jul 16 09:59:58 CEST 2018
 
 * [FIX] fixed last node not visible #54
@@ -334,7 +334,7 @@ Web UI v3. Complete redesign.
 
 
 ## 2.0.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Jul 09 14:54:33 CEST 2018
 
 * [FIX] fixes nginx.conf for webdav
@@ -342,14 +342,14 @@ Web UI v3. Complete redesign.
 
 
 ## 2.0.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Jun 28 10:37:34 CEST 2018
 
 * [FIX] fixes user/group namespaces in share ui
 
 
 ## 2.0.0-rc1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Jun 15 17:36:32 CEST 2018
 
 * [CHANGE] avatar and preview images are now used as binary image from api
@@ -358,7 +358,7 @@ Web UI v3. Complete redesign.
 
 
 ## 2.0.0-beta3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue May 15 14:52:11 CEST 2018
 
 * [FIX] share reset button is only visible after enter input
@@ -367,7 +367,7 @@ Web UI v3. Complete redesign.
 
 
 ## 2.0.0-beta2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Mar 26 13:01:18 CEST 2018
 
 * [FIX] fixed error node is not a share after unshare a collection
@@ -384,7 +384,7 @@ Web UI v3. Complete redesign.
 
 
 ## 2.0.0-beta1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Mar 05 10:01:18 CET 2018
 
 Web UI v2. Fully compatible with balloon server v2 and also includes some new features which balloon server 2.0.0 offers.
@@ -406,7 +406,7 @@ Using REST API v2.
 
 
 ## 1.0.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Mar 05 10:01:18 CET 2018
 
 First relese of the extracted web ui from the core server. Using REST API v1.

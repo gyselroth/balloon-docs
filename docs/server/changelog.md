@@ -1,5 +1,5 @@
 ## 2.6.6
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Oct 15 15:37:42 CEST 2019
 
 * CORE: [CHANGE] Include nginx deb dependency (does not require balloon-web package anymore)
@@ -12,21 +12,21 @@
 
 
 ## 2.6.5
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Aug 28 14:15:42 CEST 2019
 
 * CORE: [FIX] Delta extremely slow with many nodes from inbox shares #372
 
 
 ## 2.6.4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Aug 22 16:13:42 CEST 2019
 
 * CORE: [FIX] SMB folder does not get synced correctly (use parent storage) #368
 
 
 ## 2.6.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Aug 21 14:31:43 CEST 2019
 
 * CORE: [FIX] SMB folder does not get synced correctly (failed sync child node) #368
@@ -34,7 +34,7 @@
 
 
 ## 2.6.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Jul 11 12:25:42 CEST 2019
 
 * CORE: [FIX] Argument 2 passed to Balloon\Filesystem\Acl::processShareMember() must be an instance of Balloon\Server\User, null given #362
@@ -44,7 +44,7 @@
 
 
 ## 2.6.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Jul 05 10:14:42 CEST 2019
 
 * CORE: [FIX] Add new file via webdav ends in error #355
@@ -53,7 +53,7 @@
 
 
 ## 2.6.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Jun 25 08:15:43 CEST 2019
 
 * API: [CHANGE] Added token endpoint to openapi/swagger specs
@@ -61,7 +61,7 @@
 
 
 ## 2.6.0-beta2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Jun 14 16:19:43 CEST 2019
 
 * CORE: [CHANGE] Do not send WWW-Authenticate header if Basic was not requested via Authorization header #342
@@ -73,7 +73,7 @@
 
 
 ## 2.6.0-beta1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Jun 05 14:50:43 CEST 2019
 
 * CORE: [FEATURE] Introduce node locks #320
@@ -90,7 +90,7 @@
 
 
 ## 2.5.6
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Jun 13 11:43:31 CEST 2019
 
 * CORE: [CHANGE] Slow performance in GET nodes #343 
@@ -98,21 +98,21 @@
 
 
 ## 2.5.5
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri May 17 12:04:22 CEST 2019
 
 * CORE: [FIX] authentication via token endpoint does not work using mail adress #328
 
 
 ## 2.5.4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue May 14 17:00:30 CEST 2019
 
 * CORE: [CHANGE] Do not clone node if unshare as manager #322
 
 
 ## 2.5.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon May 13 13:54:30 CEST 2019
 
 * CORE: [FIX] Share can not be removed from share manager member #322
@@ -121,7 +121,7 @@
 
 
 ## 2.5.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Sun Apr 14 15:22:31 CEST 2019
 
 * API: [FIX] add new group with empty member results in Argument 2 passed to Balloon\\Server::addGroup() must be of the type array, null given #312
@@ -129,7 +129,7 @@
 
 
 ## 2.5.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Apr 12 16:27:31 CEST 2019
 
 * API: [FIX] server must not respond with 401 if a connection to an ldap server could not be established #309
@@ -137,21 +137,21 @@
 
 
 ## 2.5.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Apr 12 09:44:32 CEST 2019
 
 * CORE: [CHANGE] Added --skip and --bulk as elasticsearch reindex options #305
 
 
 ## 2.5.0-beta4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Apr 04 16:33:48 CEST 2019 
 
 * CORE: [FIX] elasticsearch reindex cursor does not die on bug databases #305
 
 
 ## 2.5.0-beta3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Apr 02 15:26:48 CEST 2019 
 
 * CORE: [FIX] fixed Balloon\Hook\ExternalStorage setOptions() requires array, null provided (workaround for v2.5.0-beta2 via config required)
@@ -161,7 +161,7 @@
 
 
 ## 2.5.0-beta2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Mar 29 16:31:48 CET 2019 
 
 * CORE: [FIX] Whitespace in smb share name results in invalid hostname exception #304
@@ -171,7 +171,7 @@
 
 
 ## 2.5.0-beta1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Mar 25 15:25:48 CET 2019 
 
 * CORE: [CHANGE] Support for elasticsearch 6.x #197
@@ -199,21 +199,21 @@
 
 
 ## 2.4.4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Feb 26 16:04:01 CET 2019 
 
 * CORE: [FIX] Create file with leading unicode character cuts of first character (for collections) #288
 
 
 ## 2.4.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Feb 26 14:23:03 CET 2019 
 
 * CORE: [FIX] Create file with leading unicode character cuts of first character #288
 
 
 ## 2.4.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Feb 06 15:40:03 CET 2019 
 
 * CORE: [FIX] Move node from share to share ends in Balloon\\Filesystem\\Exception\\Conflict a node called a does already exists in this collection #268
@@ -230,16 +230,16 @@
 
 
 ## 2.4.1 
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Wed Jan 29 17:04:01 CET 2019\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Wed Jan 29 17:04:01 CET 2019<br/>
 
 * API: [FIX] Request node by path results in `Balloon\\Filesystem\\Exception\\NotFound` #255
 * API: [FIX] Call to undefined method Balloon\\Filesystem\\Node\\File::getChildNodes() at children request with a file #256
 
 
 ## 2.4.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Tue Jan 29 14:42:01 CET 2019\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Tue Jan 29 14:42:01 CET 2019<br/>
 **Note**: queue flush required, @see UPGRADE.md
 
 * CORE: [CHANGE] Upgrade to stable v3 \TaskScheduler #220, possibilty to flush job queue using ballooncli jobs -f
@@ -251,30 +251,30 @@
 
 
 ## 2.3.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Tue Jan 22 14:34:01 CET 2019\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Tue Jan 22 14:34:01 CET 2019<br/>
 
 * API: [CHANGE] Query resources by id does not work, unknown top level operator: $oid #243
 * API: [CHANGE] Allow filter to be set by query string #51
 
 
 ## 2.3.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Fri Dez 21 09:47:01 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Fri Dez 21 09:47:01 CET 2018<br/>
 
 * API: [FIX] php error during initial delta call without parent node #239
 
 
 ## 2.3.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Thu Dez 20 21:31:02 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Thu Dez 20 21:31:02 CET 2018<br/>
 
 * API: [FIX] delta should include the requested node itself #237
 
 
 ## 2.3.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Thu Dez 20 17:31:02 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Thu Dez 20 17:31:02 CET 2018<br/>
 **Note**: ballooncli upgrade required, @see UPGRADE.md
 
 * API: [FIX] memory leak in delta request specifc node recursive #233
@@ -285,45 +285,45 @@
 
 
 ## 2.2.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Tu  Dez 18 11:35:32 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Tu  Dez 18 11:35:32 CET 2018<br/>
 
 * API: [FIX] Initial delta may contain nodes with the same path with different id (double share references) #230
 * API: [FIX] Delta with specific node id may result in empty responses but has_more:true #229
 
 
 ## 2.2.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Wed Dez 05 08:50:32 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Wed Dez 05 08:50:32 CET 2018<br/>
 
 * API: [FEATURE] Progressive stream via http #199 
 
 
 ## 2.1.9
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Thu Nov 15 17:12:32 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Thu Nov 15 17:12:32 CET 2018<br/>
 
 * CORE: [FIX] MongoDB\Driver\Exception\BulkWriteException during chunked upload and file > 1GB (aborts at exactly 256 chunks) #226
 
 
 ## 2.1.8
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Tue Nov 13 09:40:32 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Tue Nov 13 09:40:32 CET 2018<br/>
 
 * CORE: [FIX] Share folder notification contains invalid open folder link #223
 
 
 ## 2.1.7
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Fri Nov 09 09:25:33 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Fri Nov 09 09:25:33 CET 2018<br/>
 
 * CORE: [FIX] Balloon\Filesystem\Acl\Exception\Forbidden if collection shared with deny priv #221
 * CORE: [FIX] Number of child nodes for mailbox permission is invalid #177
 
 
 ## 2.1.6
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Fri Nov 02 10:40:57 CET 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Fri Nov 02 10:40:57 CET 2018<br/>
 
 * CORE: [FIX] Undefined index: shared at /srv/www/balloon/src/lib/Hook/Delta.php:193 #216 
 * CORE: [FIX] Sub nodes of folder shared inside an external storage are not visible #217
@@ -332,15 +332,15 @@
 
 
 ## 2.1.5
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Tue Oct 22 10:40:57 CEST 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Tue Oct 22 10:40:57 CEST 2018<br/>
 
 * CORE: [CHANGE] Upgraded micro-auth to v0.0.8 (Accepts access_token from query string), see gyselroth/balloon-client-web #87
 
 
 ## 2.1.4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Mon Oct 22 10:32:56 CEST 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Mon Oct 22 10:32:56 CEST 2018<br/>
 
 * CORE: [CHANGE] Upgraded micro-auth to v0.0.7 (Accepts access_token from query string), see gyselroth/balloon-client-web #87
 * CORE: [FIX] Balloon\Filesystem\Exception\NotFound storage blob is gone exception after max_version reached #209
@@ -348,35 +348,35 @@
 
 
 ## 2.1.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Oct 08 16:04:56 CEST 2018
 
 * CORE: [FIX] GridfsFlatReferences delta gets not applied #205
 
 
 ## 2.1.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Oct 05 11:11:56 CEST 2018
 
 * CORE: [FIX] AutoCreate user hook custom attributes does not work #203
 
 
 ## 2.1.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Oct 02 16:21:22 CEST 2018
 
 * CORE: [FIX] Share access for manager privilege is considered as only rw #201, #193
 
 
 ## 2.1.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Oct 02 08:51:22 CEST 2018
 
 * CORE: [FIX] Fixed manage permission with read/write privielge on share which was another fix for #193
 
 
 ## 2.1.0-rc1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Sept 27 11:39:33 CEST 2018
 
 * CORE: [CHANGE] Possibility to change the SmbScanner interval 
@@ -384,14 +384,14 @@
 
 
 ## 2.1.0-beta6
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Sept 24 15:41:10 CEST 2018
 
 * CORE: [FIX] Testing Balloon\Filesystem\Storage\Adapter\Smb does not use smbclient since the notify handler requires a domain (smbclient --authentication-file)
 
 
 ## 2.1.0-beta5
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Sept 24 15:41:10 CEST 2018
 
 * CORE: [FIX] Presets env variable BALLOON_CLAMAV_URI 
@@ -400,7 +400,7 @@
 
 
 ## 2.1.0-beta4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Sept 21 14:57:10 CEST 2018
 
 * CORE: [CHANGE] Removed possibility to specify a root path in an smb share (RFC-3), this functionality is not yet ready to get released 
@@ -410,7 +410,7 @@
 
 
 ## 2.1.0-beta3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Sept 17 17:02:34 CEST 2018
 
 * CORE: [FIX] A new share notification is also sent to accounts which already received a notification #168
@@ -420,7 +420,7 @@
 
 
 ## 2.1.0-beta2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Sept 14 13:24:34 CEST 2018
 
 * CORE: [FIX] Change mimetype if file extension does change
@@ -430,8 +430,8 @@
 
 
 ## 2.1.0-beta1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Wed Sept 12 14:14:45 CEST 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Wed Sept 12 14:14:45 CEST 2018<br/>
 **Note**: ballooncli upgrade required, @see UPGRADE.md
 
 * CORE: [FEATURE] Implemented RFC-3 SMB external storage #156
@@ -452,29 +452,29 @@
 
 
 ## 2.0.14
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Thu Aug 30 16:51:44 CEST 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Thu Aug 30 16:51:44 CEST 2018<br/>
 
 * CORE: [FIX] Balloon.App.Elasticsearch returns search result nodes for each share reference #187
 
 
 ## 2.0.13
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Aug 10 10:20:23 CEST 2018
 
 * CORE: [FIX] Collection with children and set on auto destroy will end in a endless loop (both for tasks and http requests) #175
 
 
 ## 2.0.12
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
-**Date**: Thu Aug 09 17:25:45 CEST 2018\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
+**Date**: Thu Aug 09 17:25:45 CEST 2018<br/>
 **Note**: Execute upgrade (`ballooncli upgrade; ballooncli upgrade -d 'Balloon\Migration\Delta\AddHashToHistory' -f`) is required to apply this fix
 
 * CORE: [FIX] Upgrade delta missing to upgrade history versions from the old file reference to the v2 storage format #172
 
 
 ## 2.0.11
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Aug 08 15:22:51 CEST 2018
 
 * CORE: [FIX] Overwrite file via webdav ends in Balloon\Filesystem\Exception\Conflict #170
@@ -484,14 +484,14 @@
 
 
 ## 2.0.10
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Jul 19 11:42:50 CEST 2018
 
 * CORE: [FIX] fixed security leak, it was possible to gain access to mailbox shared nodes which were not available as authenticated user but via a shared link (unauthenticated).
 
 
 ## 2.0.9
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Jul 17 12:29:51 CEST 2018
 
 * CORE: [FIX] create initial gridfs chunks index during CoreInstallation delta
@@ -499,7 +499,7 @@
 
 
 ## 2.0.8
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Jul 16 11:12:56 CEST 2018
 
 * CORE: [FIX] fixed Warning config.yaml ist not a readable stream in kubernetes after configMap change (php clearstatcache for each yaml config)
@@ -507,7 +507,7 @@
 
 
 ## 2.0.7
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Jul 13 09:39:56 CEST 2018
 
 * API: [FIX] fixed POST /api/v1/node/{node}/share-link uncaught exception: Argument 2 passed to Balloon\App\Sharelink\Sharelink::shareLink() must be of the type string or null, array given
@@ -515,7 +515,7 @@
 
 
 ## 2.0.6
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Jul 13 00:40:01 CEST 2018
 
 * API: [FIX] fixed POST /nodes/{node}/clone Argument 2 passed to Balloon\Filesystem\Node\Collection::addFile() must be an instance of MongoDB\BSON\ObjectId or null, resource given
@@ -524,14 +524,14 @@
 
 
 ## 2.0.5
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Jul 12 21:10:34 CEST 2018
 
 * API: [FIX] fixed uncaught exception: DateTime::setTimestamp() expects parameter 1 to be integer, string given in Balloon.App.Sharelink
 
 
 ## 2.0.4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Jul 12 10:54:23 CEST 2018
 
 * API: [FIX] fixed performance of GET /nodes/* (user quota was queried each time), added quota index and only return quota at GET /users/*
@@ -545,7 +545,7 @@
 
 
 ## 2.0.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Jul 10 10:02:39 CEST 2018
 
 * API: [CHANGE] quota attributes are now part of the root document GET /api/v2/users/{id}
@@ -556,7 +556,7 @@
 
 
 ## 2.0.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Jul 05 11:08:13 CEST 2018
 
 * CORE: [CHANGE] Cache loaded users and groups which will result in better performance
@@ -566,14 +566,14 @@
 
 
 ## 2.0.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Jul 05 09:19:14 CEST 2018
 
 * API: [FIX] fixed api v1 body http status code is now in the field `status` instead `code`
 
 
 ## 2.0.0
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Jun 28 10:37:34 CEST 2018
 
 * API: [FIX] fixed set admin flag to false if admin flag was not send via PATCH /api/v2/users 
@@ -587,7 +587,7 @@
 
 
 ## 2.0.0-rc1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Jun 15 17:36:32 CEST 2018
 
 * API: [FIX] fixed admin credentials (not requried) for GET /api/v2/users/{id} and GET /api/v2/users/{id}/avatar
@@ -621,7 +621,7 @@
 
 
 ## 2.0.0-beta3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue May 15 14:52:11 CEST 2018
 
 * CORE: [FIX] exceptions occured during ContainerBuilder are now probably handled during http processing
@@ -641,7 +641,7 @@
 
 
 ## 2.0.0-beta2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Mar 26 12:45:32 CEST 2018
 
 * CORE: [FIX] group gets now correctly added and there is no more unique check for group names
@@ -665,7 +665,7 @@
 
 
 ## 2.0.0-beta1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**:  Mon Mar 05 14:33:00 CET 2018
 
 This major relase contains various fixes, changes and new features including:
@@ -791,7 +791,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.18
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Nov 30 16:23:22 CET 2017
 
 * CORE: [FIX] fixed invalid share references in delta #102
@@ -802,7 +802,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.17
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Nov 17 13:51:22 CET 2017
 
 * CORE: [FIX] delta does not include sub nodes of shares anymore where the reference was deleted #81 
@@ -817,7 +817,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.16
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Sept 28 14:35:32 CEST 20170
 
 * API: [FIX] POST /node/move can not move a node into a shared mailbox collection which holds a node with the same name #75 
@@ -827,7 +827,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.15
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon July 31 12:55:02 CEST 2017
 
 * API: [FEATURE] /node/attributes does now accept multiple id #47
@@ -835,7 +835,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.14
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon July 30 11:13:00 CEST 2017
 
 * CORE: [FIX] fixed ldap auto share sync plugin #45
@@ -843,7 +843,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.13
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri June 30 16:04:32 CEST 2017
 
 * CORE: [FIX] added missing node name in Exception\NotFound during requesting child by name
@@ -852,14 +852,14 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.12 GA
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu June 22 10:04:32 CEST 2017
 
 * CORE: [FIX] fixed destroy node via cli plugin if node is a sub node of a share but destroy timestamp was set by share member
 
 
 ## 1.0.11 RC5
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue June 20 09:30:00 CEST 2017
 
 * CORE: [FIX] fixed decoding ldap filter from xml configuration &amp; => &
@@ -868,7 +868,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.11 RC4
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue June 13 09:30:00 CEST 2017
 
 * CORE: [FIX] fixed Balloon\Exception\Coding Undefined index: acl after unshare share and access request from a member
@@ -892,7 +892,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.9 RC3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue June 7 16:00:00 CEST 2017
 
 * CORE: [FIX] fixed major errors in delta, paths are now dynamically generated, fixed delta for share members
@@ -921,7 +921,7 @@ This major relase contains various fixes, changes and new features including:
 
 
 ## 1.0.8 RC2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue May 2 11:02:00 CEST 2017
 
 * CORE: [CHANGE] node names are now case insensitive, meaning A and a can not exist under the same parent collection
@@ -940,7 +940,7 @@ AppOffice-Webinterface: [FIX] changed de translation after closing an edit windo
 
 
 ## 1.0.7 RC1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Apr 13 16:20:00 CEST 2017
 
 * CORE: [FIX] fixed setOptions in Auth\Adapter\Preauth (removed unset)
@@ -992,7 +992,7 @@ AppOffice-Webinterface: [FIX] code cleanup
 
 
 ## 1.0.6 Beta
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Mar 9 16:20:00 CET 2017
 
 * CORE: [FEATURE] Plugin\Delta now stores information about the client used (webinterface/api, version, app)
@@ -1023,7 +1023,7 @@ AppOffice-Webinterface: [FIX] code cleanup
 
 
 ## 1.0.5 Beta
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Mar 3 17:00:00 CET 2017
 
 * CORE: [FIX] fixed preauth adapter (auth was not possible in 1.0.4)
@@ -1050,7 +1050,7 @@ AppOffice-Webinterface: [FIX] code cleanup
 
 
 ## 1.0.4 Beta
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Feb 27 11:00:00 CET 2017
 
 * CORE: [CHANGE] changed all plugins to parse iterable config via setOptions() and include default values
@@ -1084,7 +1084,7 @@ AppOffice-Webinterface: [FIX] code cleanup
 
 
 ## 1.0.3 Alpha
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Feb 20 10:30:00 CET 2017
 
 * CORE: [FIX] fixed log level (logger always logged debug instead checking log level)
@@ -1099,7 +1099,7 @@ AppOffice-Webinterface: [FIX] code cleanup
 
 
 ## 1.0.2 Alpha
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Feb 17 10:30:00 CET 2017
 
 * CORE: [FIX] removed debug mail addr from Plugin\MailNotification
@@ -1122,7 +1122,7 @@ AppOffice-Webinterface: [FIX] code cleanup
 
 
 ## 1.0.1 Alpha
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Feb 16 10:30:00 CET 2017
 
 * CORE: [FIX] added type hints to all rest controllers
@@ -1143,7 +1143,7 @@ AppOffice-Webinterface: [FIX] code cleanup
 
 
 ## 1.0.0 Alpha
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Feb 11 11:44:05 CET 2017
 
 * CORE: [CHANGE] Repository is now available under GPLv3
@@ -1265,7 +1265,7 @@ webinterface: [FIX] Global share link password input gets now reseted after open
 
 
 ## 0.4.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Tue Dec 20 14:57:05 CET 2016
 
 * CORE: [FIX] TNode::getAttributes() attribute parent is now a normal string and not a converted MongoId
@@ -1277,14 +1277,14 @@ webinterface: [FIX] Global share link password input gets now reseted after open
 
 
 ## 0.4.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Nov 23 13:44:05 CET 2016
 
 STABLE RELEASE 0.4.x
 
 
 ## 0.4.1 RC
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Nov 4 11:51:12 CET 2016
 
 * CORE: [CHANGE] Replaced internal autoloader with composer PS-4 autoloader
@@ -1310,7 +1310,7 @@ STABLE RELEASE 0.4.x
 
 
 ## 0.4 Beta
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Wed Nov 1 13:51:12 CET 2016
 
 * CORE: [FIX] Restore a previous version now restores the changed (timestamp) field from the previous version as well.
@@ -1421,7 +1421,7 @@ STABLE RELEASE 0.4.x
 
 
 ## 0.3
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Fri Dec 11 10:18:15 CET 2015
 
 * UI: [FIX] fixed upload manager colors (progress), increased animation time for quota progress
@@ -1489,14 +1489,14 @@ STABLE RELEASE 0.4.x
 
 
 ## 0.2
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Thu Apr 23 10:18:15 CEST 2015
 
 BETA RELEASE
 
 
 ## 0.1
-**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com><br/>
 **Date**: Mon Oct 27 10:18:15 CET 2014
 
 ALPHA RELEASE

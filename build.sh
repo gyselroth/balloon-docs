@@ -23,3 +23,5 @@ curl https://raw.githubusercontent.com/gyselroth/balloon-sdk-php/master/README.m
 git clone https://github.com/gyselroth/balloon-sdk-php
 cp -Rpv balloon-sdk-php/docs/* docs/sdk/php/
 rm -rfv balloon-sdk-php
+
+find docs -name \*.md -exec sed 's/\\$/<br\/\>/g' -i {} \;

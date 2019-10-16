@@ -1,19 +1,19 @@
 ## 1.1.1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Jul 23 13:14:33 CEST 2019
 
 * CORE [FIX] oidc access token can't be refreshed #200
 
 
 ## 1.1.0
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Jun 12 10:32:21 CEST 2019
 
 no changes
 
 
 ## 1.1.0-beta2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue May 28 15:49:23 CEST 2019
 
 * CORE: [FIX] Failed to connect with server #189
@@ -21,7 +21,7 @@ no changes
 
 
 ## 1.1.0-beta1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed May 22 15:17:23 CEST 2019
 
 * CORE: [FEATURE] Implement token flow and MFA #186
@@ -29,7 +29,7 @@ no changes
 
 
 ## 1.0.0
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu February 07 09:36:23 CET 2019
 
 * CORE: [FIX] Increased tray performance during initial sync #178
@@ -39,7 +39,7 @@ no changes
 
 
 ## 1.0.0-rc2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu February 07 09:36:23 CET 2019
 
 * CORE: [FIX] Open selective halts sync #174
@@ -50,7 +50,7 @@ no changes
 
 
 ## 1.0.0-rc1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri December 21 16:27:35 CET 2018
 
 * UI: [FIX] Small user interface fixes
@@ -59,7 +59,7 @@ no changes
 
 
 ## 1.0.0-beta4
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri December 21 10:29:35 CET 2018
 
 * UI: [FIX] Small user interface fixes
@@ -69,7 +69,7 @@ no changes
 
 
 ## 1.0.0-beta3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu December 20 14:29:34 CET 2018
 
 * CORE: [FIX] Upgrade from 0.2.4 to 1.0.0-beta1 unlinked active instance #160
@@ -82,14 +82,14 @@ no changes
 
 
 ## 1.0.0-beta2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri December 14 14:35:32 CET 2018
 
 * UI: [FIX] fixed crash tray with de locale
 
 
 ## 1.0.0-beta1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri December 14 13:49:32 CET 2018
 
 * CORE: [CHANGE] Upgrade various dependencies, remove obsolete dependencies
@@ -120,7 +120,7 @@ no changes
 
 
 ## 0.2.4
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri November 02 12:25:33 CET 2018
 
 * CORE: [CHANGE] Upgrade sync to v0.2.5, fixes various sync issues
@@ -137,14 +137,14 @@ no changes
 * CORE: [FIX] Catch oidc.signin errors
 
 ## 0.2.3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Sept 21 08:40:33 CEST 2018
 
 * CORE: [FIX] Upgrade sync to v0.2.3, partially fixes sync can result in DDOS #119
 
 
 ## 0.2.2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Aug 29 13:43:40 CEST 2018
 
 * CORE: [FIX] Feedback occasionally sends corrupt zip #107
@@ -152,7 +152,7 @@ no changes
 
 
 ## 0.2.1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Jul 02 08:50:44 CEST 2018
 
 * UI: [FIX] Fixes feedback zip on Windows #105 and #106
@@ -160,14 +160,14 @@ no changes
 
 
 ## 0.2.0
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Jun 18 11:49:21 CEST 2018
 
 * CORE: [CHANGE] Upgrade sync to v0.2.1
 
 
 ## 0.2.0-alpha1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed May 09 14:46:23 CEST 2018
 
 * CORE: [FEATURE] Only run sync if kernel notifies changes (watchdog) or delta got changes #102
@@ -179,14 +179,14 @@ no changes
 
 
 ## 0.1.1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue May 15 14:52:11 CEST 2018
 
 * CORE: [FIX] Various sync fixes with balloon-node-sync v0.1.1
 
 
 ## 0.1.0
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu Apr 19 15:41:32 CEST 2018
 
 * CORE: [FIX] Show notice in selective settings dialog, if no colections on root level exist #97
@@ -194,14 +194,14 @@ no changes
 
 
 ## 0.1.0-beta4
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Apr 06 17:22:02 CEST 2018
 
 * CORE: [FIX] fixes balloon-node-sync dependency
 
 
 ## 0.1.0-beta3
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Apr 06 14:22:02 CEST 2018
 
 * CORE: [CHANGE] Use new ballon-node-sync api
@@ -211,7 +211,7 @@ no changes
 
 
 ## 0.1.0-beta2
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Apr 03 10:44:43 CEST 2018
 
 * UI: [CHANGE] ui design improvements #95
@@ -219,7 +219,7 @@ no changes
 
 
 ## 0.1.0-beta1
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri Mar 16 15:23:28 CET 2018
 
 * CORE: [FEATURE] Allow to change selective sync after initialization #45
@@ -232,14 +232,14 @@ no changes
 
 
 ## 0.0.42
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon Feb 26 16:05:52 CET 2018
 
 * CORE: [CHANGE] introduced global app state, moved updateAvailable and onLineState to global app state #26
 * CORE: [CHANGE] introduced new global flag `allowPrerelease` if set to true auto updater will install pre releases. #55
 
 ## 0.0.41
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue Jan 23 08:30:08 CET 2018
 
 * CORE: [FIX] Fixes Uncaught SyntaxError: Invalid regular expression #87
@@ -247,7 +247,7 @@ no changes
 
 
 ## 0.0.40
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Fri December 22 12:01:01 CET 2017
 
 * CORE: [FIX] set delta node limit to 100, partially fixed sync can end in endless loop ESOCKETTIMEDOUT #78
@@ -259,14 +259,14 @@ no changes
 
 
 ## 0.0.39
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue December 19 16:01:01 CET 2017
 
 * CORE: [FIX] resource path in env.js is wrong in built windows env #75
 
 
 ## 0.0.38
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Tue December 19 14:02:01 CET 2017
 
 * CORE: [FIX] fixes unlink instance if sync returns 401 and a refreshToken is present #68
@@ -275,7 +275,7 @@ no changes
 
 
 ## 0.0.37
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Mon December 18 09:49:02 CET 2017
 
 * PACKAGING: [CHANGE] copy env between nsis updates #64
@@ -285,7 +285,7 @@ no changes
 
 
 ## 0.0.36
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu Dezember 14 15:48:02 CET 2017
 
 * CORE: [FIX] update custom build does overwrite custom env config #62
@@ -296,7 +296,7 @@ no changes
 
 
 ## 0.0.35
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu Dezember 14 09:33:46 CET 2017
 
 * CORE: [FIX] sync lib to 0.0.30 fixes conflicting local folders
@@ -304,7 +304,7 @@ no changes
 
 
 ## 0.0.34
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed Dezember 06 08:50:23 CET 2017
 
 * CORE: [FIX] fixed multi sync threads running #34
@@ -316,14 +316,14 @@ no changes
 
 
 ## 0.0.33
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu November 17 15:14:43 CET 2017
 
 * PACKAGING: [FIX] bintray deployment in stable branch
 
 
 ## 0.0.32
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu November 16 11:14:43 CET 2017
 
 * CORE: [FIX] fixed random start errors which lead to an unusable state #28
@@ -339,7 +339,7 @@ no changes
 
 
 ## 0.0.31
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed October 25 11:08:33 CEST 2017
 
 * UI: [CHANGE] New balloon (tray) logo for all operating systems
@@ -356,7 +356,7 @@ no changes
 
 
 ## 0.0.30
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu September 28 13:30:20 CEST 2017
 
 * UI: [CHANGE] migrated fonts to ubuntu-font package #14
@@ -366,7 +366,7 @@ no changes
 
 
 ## 0.0.29
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Thu September 28 11:19:20 CEST 2017
 
 * CORE: [FEATURE] Add migration framework
@@ -380,7 +380,7 @@ no changes
 
 
 ## 0.0.28
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed September 6 15:15:29 WEST 2017
 
 * CORE: [FIX] It is now possible to use localhost or an IP as bln url
@@ -389,7 +389,7 @@ no changes
 
 
 ## 0.0.27
-**Maintainer**: balloon-team <opensource@gyselroth.net>\
+**Maintainer**: balloon-team <opensource@gyselroth.net><br/>
 **Date**: Wed August 30 15:04:32 CEST 2017
 
 * CORE: [FIX] Auto startup is now the default if built with nothing set for enableAutoLaunch

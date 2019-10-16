@@ -65,20 +65,20 @@ You need to build the client seperately on each OS. You need the latest [npm](ht
 **Requirements**
 * libsecret-1-dev
 
-**Build only**\
+**Build only**<br/>
 `npm run build-linux`
 
-**Build and draft release to github**\
+**Build and draft release to github**<br/>
 `GH_TOKEN=xxx npm run release-linux`
 
 ### OSX
 **Requirements**
 * XCode
 
-**Build only**\
+**Build only**<br/>
 `CSC_LINK=/path/to/apple_dev/cert CSC_KEY_PASSWORD=apple_key_password npm run build-osx`
 
-**Build and draft release to github**\
+**Build and draft release to github**<br/>
 `GH_TOKEN=xxx CSC_LINK=/path/to/apple_dev/cert CSC_KEY_PASSWORD=apple_key_password npm run release-osx`
 
 If you do not want to sign your build, you can also leave out CSC_LINK and CSC_KEY_PASSWORD.
@@ -93,10 +93,10 @@ If you do not want to sign your build, you can also leave out CSC_LINK and CSC_K
 
 If you do not want to sign your build, you can also leave out CSC_LINK and CSC_KEY_PASSWORD.
 
-**Build only**\
+**Build only**<br/>
 `CSC_LINK=/path/to/p12/cert CSC_KEY_PASSWORD=p12_key_password npm run build-win`
 
-**Build and draft release to github**\
+**Build and draft release to github**<br/>
 `GH_TOKEN=xxx CSC_LINK=/path/to/p12/cert CSC_KEY_PASSWORD=p12_key_password npm run release-win`
 
 ## Release

@@ -6,5 +6,6 @@ Interested? Please visit the [documentation](https://gyselroth.github.io/balloon
 ## Build docs
 
 ```
-mkdocs build
+./build.sh
+mkdocs gh-deploy
 ```
