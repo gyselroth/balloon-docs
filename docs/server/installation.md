@@ -31,7 +31,7 @@ Create a file named `balloon-stable.yaml` with this content:
 
 ```
 mkdir balloon; cd balloon
-curl https://github.com/gyselroth/balloon/blob/master/packaging/docker-compose/docker-compose.yaml > docker-compose.yaml
+curl https://raw.githubusercontent.com/gyselroth/balloon/master/packaging/docker-compose/docker-compose.yaml > docker-compose.yaml
 docker-compose up
 ```
 
