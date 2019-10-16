@@ -18,6 +18,7 @@ nav:
 - Desktop client:
   - Home: desktop-client/index.md
   - Installation: desktop-client/installation.md
+  - Configuration: desktop-client/configuration.md
   - Changelog: desktop-client/changelog.md
   - Upgrade: desktop-client/upgrade.md
   - Contribute: desktop-client/contribute.md
