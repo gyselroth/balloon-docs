@@ -1,0 +1,28 @@
+site_name: balloon
+theme: material
+nav:
+- Server:
+  - Home: server/index.md
+  - Installation: server/installation.md
+  - Changelog: server/changelog.md
+  - Upgrade: server/upgrade.md
+  - Contribute: server/contribute.md
+  - Apps:
+    - Elasticsearch: server/apps/elasticsearch.md
+- Web client:
+  - Home: web-client/index.md
+  - Installation: server/installation.md
+  - Changelog: web-client/changelog.md
+  - Upgrade: web-client/upgrade.md
+  - Contribute: web-client/contribute.md
+- Desktop client:
+  - Home: desktop-client/index.md
+  - Installation: desktop-client/installation.md
+  - Changelog: desktop-client/changelog.md
+  - Upgrade: desktop-client/upgrade.md
+  - Contribute: desktop-client/contribute.md
+- SDK:
+  - Home: sdk/index.md
+  - Go: sdk/go.md
+  - Node.js: sdk/nodejs.md
+  - PHP: sdk/php.md

@@ -1,2 +1,9 @@
 # balloon-docs
-balloon documentation
+
+This is the home of the balloon ecosystem documentation.
+
+## Build docs
+
+```
+mkdocs build
+```
