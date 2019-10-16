@@ -1431,16 +1431,16 @@ and also ensure that all your modifications pass the build.
 <h3 id="linux">Linux</h3>
 <p><strong>Requirements</strong>
 * libsecret-1-dev</p>
-<p><strong>Build only</strong>\
+<p><strong>Build only</strong><br/>
 <code>npm run build-linux</code></p>
-<p><strong>Build and draft release to github</strong>\
+<p><strong>Build and draft release to github</strong><br/>
 <code>GH_TOKEN=xxx npm run release-linux</code></p>
 <h3 id="osx">OSX</h3>
 <p><strong>Requirements</strong>
 * XCode</p>
-<p><strong>Build only</strong>\
+<p><strong>Build only</strong><br/>
 <code>CSC_LINK=/path/to/apple_dev/cert CSC_KEY_PASSWORD=apple_key_password npm run build-osx</code></p>
-<p><strong>Build and draft release to github</strong>\
+<p><strong>Build and draft release to github</strong><br/>
 <code>GH_TOKEN=xxx CSC_LINK=/path/to/apple_dev/cert CSC_KEY_PASSWORD=apple_key_password npm run release-osx</code></p>
 <p>If you do not want to sign your build, you can also leave out CSC_LINK and CSC_KEY_PASSWORD.</p>
 <h3 id="windows">Windows</h3>
@@ -1449,9 +1449,9 @@ and also ensure that all your modifications pass the build.
 * npm install -g windows-build-tools</p>
 <p><strong>Hint</strong>: Disable any antivirus scanner and Windows Defender if you encounter any error regarding certificate is locked or used by another programm.</p>
 <p>If you do not want to sign your build, you can also leave out CSC_LINK and CSC_KEY_PASSWORD.</p>
-<p><strong>Build only</strong>\
+<p><strong>Build only</strong><br/>
 <code>CSC_LINK=/path/to/p12/cert CSC_KEY_PASSWORD=p12_key_password npm run build-win</code></p>
-<p><strong>Build and draft release to github</strong>\
+<p><strong>Build and draft release to github</strong><br/>
 <code>GH_TOKEN=xxx CSC_LINK=/path/to/p12/cert CSC_KEY_PASSWORD=p12_key_password npm run release-win</code></p>
 <h2 id="release">Release</h2>
 <p>npm run release-* automatically drafts releases to github if you export a github oauth2 access token (GH_TOKEN), otherwise you can get your builds from ./dist. 
