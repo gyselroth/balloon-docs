@@ -419,6 +419,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../configuration/" title="Configuration" class="md-nav__link">
+      Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../changelog/" title="Changelog" class="md-nav__link">
       Changelog
     </a>
@@ -796,49 +808,6 @@ and also ensure that all your modifications pass the build.
 <h2 id="release">Release</h2>
 <p>npm run release-* automatically drafts releases to github if you export a github oauth2 access token (GH_TOKEN), otherwise you can get your builds from ./dist. 
 See balloon desktop client <a href="https://github.com/gyselroth/balloon-client-desktop/releases">releases</a>.</p>
-<h1 id="custom-configuration">Custom configuration</h1>
-<p>Add your configuration in <code>config/env_[CONTEXT].json</code> (usuallly config/env_production.json)</p>
-<p>The following configuration options are available:</p>
-<ul>
-<li><code>name</code> String (optional) - the name of the context. <code>production</code> or <code>development</code>. Default: <code>production</code></li>
-<li><code>version</code> Integer (optional) - version of this configuration (Increase if you want to update env configuration between build updates). Default: <code>0</code></li>
-<li><code>tlsVerifyCert</code> Boolean (optional) - Accept self signed SSl certificates. Default: <code>true</code> on development, <code>false</code> on production</li>
-<li><code>blnUrl</code> String (optional) - the url under which your Balloon installation is running. If no set user is prompted to enter URL on first start (eg: <code>https://example-balloon.io</code>)</li>
-<li><code>apiPath</code> String (optional) - the path to the API Default: <code>'/api/v1/'</code></li>
-<li><code>configDir</code> String (optional) - path to the directory where configuration is stored on the client. You can use {home}/{username} which gets replaced with the current home directory/local username. This setting only works well if update.enable is set on <code>false</code>. Default: <code>{home}/.balloon</code></li>
-<li><code>configFileName</code> String (optional) - name of the configuration file inside <code>configDirName</code>. Default: <code>config.json</code></li>
-<li><code>balloonDir</code> String (optional) - default path to the directory where the synced files are saved. You can use {home}/{username} which gets replaced with the current home directory/local username. Default: <code>{home}/Balloon</code></li>
-<li><code>log</code> Object (optional) - logging configuration</li>
-<li><code>level</code> String (optional) - maximum level that should be logged. Default: <code>debug</code>. Available levels: <code>{error: 3, warning: 4, notice: 5, info: 6, debug: 7}</code></li>
-<li><code>maxsize</code> Integer (optional) - maximum size of a single lg file. Default: <code>10000000</code></li>
-<li><code>maxFiles</code> Integer (optional) - maximum number of log files. Default: <code>10</code></li>
-<li><code>requestTimeout</code> Integer (optional) - api request timeout in miliseconds. Default: <code>30000</code></li>
-<li><code>sync</code>: Object (optional) - sync configuration</li>
-<li><code>interval</code> Integer (optional) - interval in which syncs run in production context. Default: <code>5</code></li>
-<li><code>maxConcurentConnections</code> Integer (optional) - maximum simultaneous connections for file up- and downloads</li>
-<li><code>enableAutoLaunch</code> Boolean (optional) - if app should be launched on system startup. Default: true</li>
-<li><code>allowPrerelease</code> Boolean (optional) - if auto updater should install pre releases. Default: false</li>
-<li><code>update</code> Object (optional) - update configuration</li>
-<li><code>enable</code> Boolean (optional) - enables automatic (and manual) updates - Default: <code>true</code></li>
-<li><code>checkInterval</code> Integer (optional) - interval in hours the client should check for updates. A first check is always done on app start. Default: <code>4</code></li>
-<li><code>winClsId</code> String (optional) - Windows explorer ClsId</li>
-<li><code>auth</code>: Object (optional) - authentication configuration</li>
-<li><code>secretStorage</code> String (optional) - credential storage, either config or keytar (OS keychain). Default: <code>keytar</code></li>
-<li><code>credentials</code> null|'basic'|'token' - if <code>null</code> only oidc auth is active, <code>token</code> for internal token flow, <code>basic</code> for basic authentication. Be sure your server supports the configured authentication method. Default: <code>token</code></li>
-<li><code>oidc</code> Array (optional) - configure multiple OpenID-connect provider, be sure that your server also supports those oidc provider<ul>
-<li><code>clientId</code> String (required) client id</li>
-<li><code>clientSecret</code> String (required) client secret</li>
-<li><code>providerUrl</code> String (required) URL to the discovery document</li>
-<li><code>redirectUri</code> String (required) redirect uri to local http port (for example: http://127.0.0.1:13005)</li>
-<li><code>revokeAuthenticationRequired</code> Boolean (otional) should be false if the /revoke endpoint does not require client authentication. Default: <code>true</code></li>
-<li><code>scope</code> String (required) OAUTH2 scopes (For example: openid profile)</li>
-<li><code>imgBase64</code> String (required) base64 encoded Oidc sign-in button</li>
-</ul>
-</li>
-<li><code>autoReport</code> Boolean (optional) - If true report will be sent every <code>autoReportInterval</code> to <code>autoReportPutUrl</code> Default: <code>false</code></li>
-<li><code>autoReportPutUrl</code> String (optional) - Url to which to send auto reports</li>
-<li><code>autoReportInterval</code> Integer (optional) - Interval to send auto reports in milliseconds. Default: <code>300000</code></li>
-</ul>
                 
                   
                 
