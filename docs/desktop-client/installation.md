@@ -1,4 +1,4 @@
-# Desktop client
+# Installation
 
 ## Windows 
 Go grab the latest [release](https://github.com/gyselroth/balloon-client-desktop/releases/latest) and download the .exe desktop client. You can install the exe either as non-administrator into your profile or as administrator system wide.

@@ -15,6 +15,11 @@ curl https://raw.githubusercontent.com/gyselroth/balloon-client-desktop/master/U
 curl https://raw.githubusercontent.com/gyselroth/balloon-client-desktop/master/CONTRIBUTING.md > docs/desktop-client/contribute.md
 curl https://raw.githubusercontent.com/gyselroth/balloon-client-desktop/master/README.md > docs/desktop-client/index.md
 
-curl https://raw.githubusercontent.com/gyselroth/balloon-sdk-go/master/README.md > docs/sdk/go.md
-curl https://raw.githubusercontent.com/gyselroth/balloon-sdk-typescript-node/master/README.md > docs/sdk/nodejs.md
-curl https://raw.githubusercontent.com/gyselroth/balloon-sdk-php/master/README.md > docs/sdk/php.md
+curl https://raw.githubusercontent.com/gyselroth/balloon-sdk-go/master/README.md > docs/sdk/go/index.md
+
+curl https://raw.githubusercontent.com/gyselroth/balloon-sdk-typescript-node/master/README.md > docs/sdk/nodejs/index.md
+
+curl https://raw.githubusercontent.com/gyselroth/balloon-sdk-php/master/README.md > docs/sdk/php/index.md
+git clone https://github.com/gyselroth/balloon-sdk-php
+cp -Rpv balloon-sdk-php/docs/* docs/sdk/php/
+rm -rfv balloon-sdk-php
