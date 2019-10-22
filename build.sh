@@ -26,6 +26,7 @@ rm -rfv balloon-sdk-php
 
 find docs -name \*.md -exec sed 's/\\$/<br\/\>/g' -i {} \;
 
+git commit  -m "docs" .
 mkdocs gh-deploy
 git checkout gh-pages
 git checkout master api/
