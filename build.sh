@@ -27,3 +27,8 @@ rm -rfv balloon-sdk-php
 find docs -name \*.md -exec sed 's/\\$/<br\/\>/g' -i {} \;
 
 mkdocs gh-deploy
+git checkout gh-pages
+git checkout master api/
+git add api
+git commit -m "merged apidoc" api
+git checkout master
