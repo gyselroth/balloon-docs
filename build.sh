@@ -32,3 +32,4 @@ git checkout master api/
 git add api
 git commit -m "merged apidoc" api
 git checkout master
+git push
