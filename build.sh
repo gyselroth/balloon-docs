@@ -25,3 +25,5 @@ cp -Rpv balloon-sdk-php/docs/* docs/sdk/php/
 rm -rfv balloon-sdk-php
 
 find docs -name \*.md -exec sed 's/\\$/<br\/\>/g' -i {} \;
+
+mkdocs gh-deploy
