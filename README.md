@@ -7,5 +7,4 @@ Interested? Please visit the [documentation](https://gyselroth.github.io/balloon
 
 ```
 ./build.sh
-mkdocs gh-deploy
 ```
