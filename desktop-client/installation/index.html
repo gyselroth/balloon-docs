@@ -289,11 +289,39 @@
     Mac OS
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#homebrew" class="md-nav__link">
+    Homebrew
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installer" class="md-nav__link">
+    Installer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#linux-deb-based-distribution" class="md-nav__link">
-    Linux (Deb based distribution)
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debian" class="md-nav__link">
+    Debian
   </a>
   
     <nav class="md-nav">
@@ -317,18 +345,23 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#linux-rpm-based-distribution" class="md-nav__link">
-    Linux (Rpm based distribution)
+        
+          <li class="md-nav__item">
+  <a href="#rpm-based-distribution" class="md-nav__link">
+    Rpm based distribution
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#linux-others" class="md-nav__link">
     Linux (Others)
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1316,11 +1349,39 @@
     Mac OS
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#homebrew" class="md-nav__link">
+    Homebrew
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installer" class="md-nav__link">
+    Installer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#linux-deb-based-distribution" class="md-nav__link">
-    Linux (Deb based distribution)
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debian" class="md-nav__link">
+    Debian
   </a>
   
     <nav class="md-nav">
@@ -1344,18 +1405,23 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#linux-rpm-based-distribution" class="md-nav__link">
-    Linux (Rpm based distribution)
+        
+          <li class="md-nav__item">
+  <a href="#rpm-based-distribution" class="md-nav__link">
+    Rpm based distribution
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#linux-others" class="md-nav__link">
     Linux (Others)
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1382,12 +1448,18 @@
 The desktop client does register itself as auto start application after it was started for the first time.
 It does automatically check for updates and install them after either restarting the client or manually executed.</p>
 <h2 id="mac-os">Mac OS</h2>
-<p>Go grab the latest <a href="https://github.com/gyselroth/balloon-client-desktop/releases/latest">release</a> and download the .dmg desktop client. You need administrator privileges to drop the application into the program folder or alternatively as non-administrator drop it into your profile.
-The desktop client does register itself as auto start application after it was started for the first time.
-It does automatically check for updates and install them after either restarting the client or manually executed.</p>
-<h2 id="linux-deb-based-distribution">Linux (Deb based distribution)</h2>
+<h3 id="homebrew">Homebrew</h3>
+<p>You may use <code>brew</code> to install the desktop client.</p>
+<pre><code class="bash">brew tap gyselroth/cask
+brew cask install balloon-desktop
+</code></pre>
+
+<h3 id="installer">Installer</h3>
+<p>Go grab the latest <a href="https://github.com/gyselroth/balloon-client-desktop/releases/latest">release</a> and download the .pkg package.</p>
+<h2 id="linux">Linux</h2>
+<h3 id="debian">Debian</h3>
 <p>You can download the deb file directly from the latest <a href="https://github.com/gyselroth/balloon-client-desktop/releases/latest">release</a>. But you won't receive any updates since automatic updates on debian get distributed via an apt repository.</p>
-<h3 id="install-via-apt-recommended">Install via apt (Recommended)</h3>
+<h4 id="install-via-apt-recommended">Install via apt (Recommended)</h4>
 <p>The recommended way is to install the client via the apt repository:</p>
 <pre><code class="bash">echo &quot;deb https://dl.bintray.com/gyselroth/balloon stable main&quot; | sudo tee -a /etc/apt/sources.list
 wget -qO - https://bintray.com/user/downloadSubjectPublicKey?username=gyselroth | sudo apt-key add -
@@ -1395,7 +1467,7 @@ sudo apt-get update
 sudo apt-get install balloon-desktop
 </code></pre>
 
-<h3 id="install-unstable-packages-via-apt">Install unstable packages via apt</h3>
+<h4 id="install-unstable-packages-via-apt">Install unstable packages via apt</h4>
 <p>If you want using nightly or unstable packages you can install those repositories. Those repositories are not meant for production, use at own risk!</p>
 <pre><code class="bash">echo &quot;deb https://dl.bintray.com/gyselroth/balloon unstable main&quot; | sudo tee -a /etc/apt/sources.list
 </code></pre>
@@ -1404,10 +1476,10 @@ sudo apt-get install balloon-desktop
 <pre><code class="bash">echo &quot;deb https://dl.bintray.com/gyselroth/balloon nightly main&quot; | sudo tee -a /etc/apt/sources.list
 </code></pre>
 
-<h2 id="linux-rpm-based-distribution">Linux (Rpm based distribution)</h2>
+<h3 id="rpm-based-distribution">Rpm based distribution</h3>
 <p>For rpm based distributions you are required to grab the rpm from  the lastest <a href="https://github.com/gyselroth/balloon-client-desktop/releases/latest">release</a>. 
 There is not (yet) a yum repository.</p>
-<h2 id="linux-others">Linux (Others)</h2>
+<h3 id="linux-others">Linux (Others)</h3>
 <p>If you do not want a packaged bundle or not having an rpm/deb based distribution, you may grab the zipped archive from the latest <a href="https://github.com/gyselroth/balloon-client-desktop/releases/latest">release</a>.</p>
                 
                   
