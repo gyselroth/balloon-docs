@@ -75,7 +75,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#111" tabindex="1" class="md-skip">
+      <a href="#120" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -236,6 +236,47 @@
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#120" class="md-nav__link">
+    1.2.0
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bugfixes" class="md-nav__link">
+    Bugfixes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sync" class="md-nav__link">
+    Sync
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployment" class="md-nav__link">
+    Deployment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common" class="md-nav__link">
+    Common
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#111" class="md-nav__link">
@@ -1517,6 +1558,47 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#120" class="md-nav__link">
+    1.2.0
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bugfixes" class="md-nav__link">
+    Bugfixes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sync" class="md-nav__link">
+    Sync
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployment" class="md-nav__link">
+    Deployment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common" class="md-nav__link">
+    Common
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#111" class="md-nav__link">
     1.1.1
   </a>
@@ -1808,7 +1890,36 @@
                 
                   <h1>Changelog</h1>
                 
-                <h2 id="111">1.1.1</h2>
+                <h2 id="120">1.2.0</h2>
+<p><strong>Maintainer</strong>: balloon-team <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#111;&#112;&#101;&#110;&#115;&#111;&#117;&#114;&#99;&#101;&#64;&#103;&#121;&#115;&#101;&#108;&#114;&#111;&#116;&#104;&#46;&#110;&#101;&#116;">&#111;&#112;&#101;&#110;&#115;&#111;&#117;&#114;&#99;&#101;&#64;&#103;&#121;&#115;&#101;&#108;&#114;&#111;&#116;&#104;&#46;&#110;&#101;&#116;</a><br/>
+<strong>Date</strong>: Fri Nov 29 09:56:11 CET 2019</p>
+<h3 id="bugfixes">Bugfixes</h3>
+<ul>
+<li>Missleading message during check for update while downloading latest update #74</li>
+<li>Change of allowPrerelease flag should work without app restart #169</li>
+<li>Soft fail if no rights to send events to system events #193</li>
+<li>Adding missing localizations #205</li>
+<li>Wrong status after link account #205</li>
+<li>Empty Message Prevents Sending Error Report #204</li>
+<li>Fix tray window positioning on osx #112</li>
+<li>Do not unlink account if access token can not get refreshed #188</li>
+<li>Open balloon the 2nd time does not open the balloon folder #202</li>
+<li>Fix initial login state may differ #163</li>
+</ul>
+<h3 id="sync">Sync</h3>
+<ul>
+<li>Various sync fixes, balloon-node-sync version v0.5.2</li>
+</ul>
+<h3 id="deployment">Deployment</h3>
+<ul>
+<li>Submit balloon-desktop to brew #195</li>
+<li>Use travis for windows builds instead appveyor #198</li>
+</ul>
+<h3 id="common">Common</h3>
+<ul>
+<li>Starting with v1.2.0 the changelog has a new format, all changes get splitted into sub categeories within the changelog to get a better readability.</li>
+</ul>
+<h2 id="111">1.1.1</h2>
 <p><strong>Maintainer</strong>: balloon-team <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#111;&#112;&#101;&#110;&#115;&#111;&#117;&#114;&#99;&#101;&#64;&#103;&#121;&#115;&#101;&#108;&#114;&#111;&#116;&#104;&#46;&#110;&#101;&#116;">&#111;&#112;&#101;&#110;&#115;&#111;&#117;&#114;&#99;&#101;&#64;&#103;&#121;&#115;&#101;&#108;&#114;&#111;&#116;&#104;&#46;&#110;&#101;&#116;</a><br/>
 <strong>Date</strong>: Tue Jul 23 13:14:33 CEST 2019</p>
 <ul>
