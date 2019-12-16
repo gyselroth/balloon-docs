@@ -7,7 +7,6 @@ There are multiple supported ways to deploy balloon:
 
 * Docker (docker-compose)
 * [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) using [helm](https://github.com/gyselroth/balloon-helm)
-* Manually to [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 * Manually from tar archive
 * Compile manually from scratch
 
@@ -43,31 +42,7 @@ Password: admin <br/>
 
 ## Deploy on kubernetes (helm)
 
-See the complete documentation for balloon helm [here](https://github.com/gyselroth/balloon-helm).
-
-To install the chart with the release name `my-release`:
-
-```console
-helm repo add balloon https://gyselroth.github.io/balloon-helm/stable
-helm install balloon/balloon --name my-release --namespace mynamespace
-```
-
-Example deployment with ingress/tls enabled:
-
-```console
-helm install balloon/balloon --name my-release --namespace mynamespace <br/>
-    --set balloon-proxy.ingress.enabled=true \ 
-    --set balloon-web.ingress.enabled=true \ 
-    --set balloon-proxy.ingress.host=balloon.local <br/>
-    --set balloon-web.ingress.host=balloon.local <br/>
-    --set balloon-web.ingress.tls[0].secretName=tls-balloon.local <br/>
-    --set balloon-proxy.ingress.tls[0].secretName=tls-balloon.local <br/>
-    --set balloon.url=https://balloon.local
-```
-
-## Deploy on kubernetes (manually)
-
->**Note** Using helm to deploy balloon on kubernetes is the preferred way.
+You find more information [here](helm) on how to deploy balloon to k8s using helm.
 
 
 ## Manually install from source

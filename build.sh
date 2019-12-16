@@ -4,6 +4,7 @@ curl https://raw.githubusercontent.com/gyselroth/balloon/master/CHANGELOG.md > d
 curl https://raw.githubusercontent.com/gyselroth/balloon/master/UPGRADE.md > docs/server/upgrade.md
 curl https://raw.githubusercontent.com/gyselroth/balloon/master/CONTRIBUTING.md > docs/server/contribute.md
 curl https://raw.githubusercontent.com/gyselroth/balloon/master/README.md > docs/server/index.md
+curl https://raw.githubusercontent.com/gyselroth/balloon-helm/master/README.md > docs/server/installation-helm.md
 
 curl https://raw.githubusercontent.com/gyselroth/balloon-client-web/master/CHANGELOG.md > docs/web-client/changelog.md
 curl https://raw.githubusercontent.com/gyselroth/balloon-client-web/master/UPGRADE.md > docs/web-client/upgrade.md
