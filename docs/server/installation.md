@@ -42,7 +42,7 @@ Password: admin <br/>
 
 ## Deploy on kubernetes (helm)
 
-You find more information [here](/server/installation-helm) on how to deploy balloon to k8s using helm.
+You find more information [here](/balloon-docs/server/installation-helm) on how to deploy balloon to k8s using helm.
 
 
 ## Manually install from source
