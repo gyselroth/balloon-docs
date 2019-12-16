@@ -1065,6 +1065,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../installation-helm/" title="balloon Helm Chart" class="md-nav__link">
+      balloon Helm Chart
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -1103,13 +1115,6 @@
         <li class="md-nav__item">
   <a href="#deploy-on-kubernetes-helm" class="md-nav__link">
     Deploy on kubernetes (helm)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deploy-on-kubernetes-manually" class="md-nav__link">
-    Deploy on kubernetes (manually)
   </a>
   
 </li>
@@ -1164,13 +1169,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-7" type="checkbox" id="nav-4-7">
     
-    <label class="md-nav__link" for="nav-4-6">
+    <label class="md-nav__link" for="nav-4-7">
       Apps
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-6">
+      <label class="md-nav__title" for="nav-4-7">
         Apps
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1305,13 +1310,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deploy-on-kubernetes-manually" class="md-nav__link">
-    Deploy on kubernetes (manually)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#manually-install-from-source" class="md-nav__link">
     Manually install from source
   </a>
@@ -1355,7 +1353,6 @@ This tutorial includes the web interface, of course you may also just install th
 <ul>
 <li>Docker (docker-compose)</li>
 <li><a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/">Kubernetes</a> using <a href="https://github.com/gyselroth/balloon-helm">helm</a></li>
-<li>Manually to <a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/">Kubernetes</a></li>
 <li>Manually from tar archive</li>
 <li>Compile manually from scratch</li>
 </ul>
@@ -1386,27 +1383,7 @@ If you want to install beta and alpha versions replace <code>latest</code> with 
 <p>Username: admin <br/>
 Password: admin <br/></p>
 <h2 id="deploy-on-kubernetes-helm">Deploy on kubernetes (helm)</h2>
-<p>See the complete documentation for balloon helm <a href="https://github.com/gyselroth/balloon-helm">here</a>.</p>
-<p>To install the chart with the release name <code>my-release</code>:</p>
-<pre><code class="console">helm repo add balloon https://gyselroth.github.io/balloon-helm/stable
-helm install balloon/balloon --name my-release --namespace mynamespace
-</code></pre>
-
-<p>Example deployment with ingress/tls enabled:</p>
-<pre><code class="console">helm install balloon/balloon --name my-release --namespace mynamespace &lt;br/&gt;
-    --set balloon-proxy.ingress.enabled=true \ 
-    --set balloon-web.ingress.enabled=true \ 
-    --set balloon-proxy.ingress.host=balloon.local &lt;br/&gt;
-    --set balloon-web.ingress.host=balloon.local &lt;br/&gt;
-    --set balloon-web.ingress.tls[0].secretName=tls-balloon.local &lt;br/&gt;
-    --set balloon-proxy.ingress.tls[0].secretName=tls-balloon.local &lt;br/&gt;
-    --set balloon.url=https://balloon.local
-</code></pre>
-
-<h2 id="deploy-on-kubernetes-manually">Deploy on kubernetes (manually)</h2>
-<blockquote>
-<p><strong>Note</strong> Using helm to deploy balloon on kubernetes is the preferred way.</p>
-</blockquote>
+<p>You find more information <a href="helm">here</a> on how to deploy balloon to k8s using helm.</p>
 <h2 id="manually-install-from-source">Manually install from source</h2>
 <p>This topic is only for advanced users who know what the do or developers and describes how to deploy balloon by installing it directlly from source.
 If you are a developer please also continue reading <a href="https://github.com/gyselroth/balloon/blob/master/CONTRIBUTING.md">this</a> article.</p>
@@ -1473,7 +1450,7 @@ make install
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../contribute/" title="Contribute to balloon" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../installation-helm/" title="balloon Helm Chart" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1482,7 +1459,7 @@ make install
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Contribute to balloon
+                balloon Helm Chart
               </span>
             </div>
           </a>
